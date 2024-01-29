@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+body{
+    background-image:linear-gradient(to bottom right,rgb(192, 249, 195),white) ;
+    background-size: cover;
+}
+#heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+#para1,p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#number{
+    font-size: 20px;
+}
+button{
+    width: 76px;
+    height: 46px;
+}
+button:hover{
+   background-color: rgb(227, 183, 225);
+}
+div{
+    height: 850px;
+    width: auto;
+}
