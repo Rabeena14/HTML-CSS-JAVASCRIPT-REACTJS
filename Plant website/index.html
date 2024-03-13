@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessed botanicals Shop</title>
+    <link rel="stylesheet" href="./plant.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="maindiv">
+            <div class="div1">
+                <img src="./images/logo.png" height="60px" width="60px" id="logo1">
+                <h2 id="logo"><i>Blessed botanicals</i></h2>
+                <form class="form">
+                    <input type="text" placeholder="search here....." id="form1">
+                    <img src="./images/search.png" height="25px" width="25px" id="search">
+                </form>
+                <nav class="nav1">
+                    <a href="#"><abbr title="Cart"><img src="./images/cart.png" height="30px" width="30px"
+                                id="cart"></abbr></a>
+                    <a href="#"><abbr title="Profile"><img src="./images/profile.png" height="30px" width="30px"
+                                id="profile"></abbr></a>
+                </nav>
+            </div>
+            <div class="div2" id="home">
+                <nav class="nav2">
+                    <a href="#home" id="main">Home</a>
+                    <a href="#best" id="main">Category</a>
+                    <a href="#shop" id="main">Products</a>
+                    <a href="#blog" id="main">Blog</a>
+                    <a href="#contact" id="main">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" id="radio1" name="radios">
+                <input type="radio" id="radio2" name="radios">
+                <input type="radio" id="radio3" name="radios">
+                <div class="slide first" style="background-color: rgb(242, 232, 219);">
+                    <img src="./images/slide1.png">
+                    <div class="words">
+                        <span id="offer"><br><br><br>upto 45% off</span>
+                        <h3 id="quote">decorate your home now</h3>
+                        <a href="#shop" class="btn">Shop now</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-color:rgb(194, 183, 215)">
+                    <img src="./images/slide2.png">
+                    <div class="words"><span id="offer"><br><br><br>upto 10% off</span>
+                        <h3 id="quote">bloom where you are planted</h3>
+                        <a href="#shop" class="btn">Shop now</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-color: rgb(222, 201, 194);">
+                    <img src="./images/slide3.png">
+
+                    <div class="words"><span id="offer"><br><br><br>upto 65% off</span>
+                        <h3 id="quote">plant make people happy</h3>
+                        <a href="#shop" class="btn">Shop now</a>
+                    </div>
+
+                </div>
+                <div class="auto">
+                    <div class="auto1"></div>
+                    <div class="auto2"></div>
+                    <div class="auto3"></div>
+                </div>
+            </div>
+            <div class="manual">
+                <label for="radio1" class="manuals"></label>
+                <label for="radio2" class="manuals"></label>
+                <label for="radio3" class="manuals"></label>
+            </div>
+        </div>
+    </section>
+    <div class="div3">
+        <h2 class="title h1" id="best">Your Best Picks</h2>
+    </div>
+    <div class="div4">
+        <div>
+            <img src="./images/indoor plants.webp" alt="Indoor Plants" loading="auto" class="motion-reduce">
+            <h3 class="card-information__text h3"><br>Indoor Plants
+            </h3>
+        </div>
+        <div>
+            <img src="images/ceramic pots.webp" alt="Ceramic Pots" loading="lazy" class="motion-reduce">
+            <h3 class="card-information__text h3"><br>Ceramic Pots
+            </h3>
+        </div>
+        <div>
+            <img src="./images/Plant_Care_R.webp" alt="Plant Care" loading="lazy" class="motion-reduce">
+            <h3 class="card-information__text h3"><br>Plant Care
+            </h3>
+        </div>
+        <div>
+            <img src="./images/flowering plants.webp" alt="Flowering Plants" loading="lazy" class="motion-reduce">
+            <h3 class="card-information__text h3"><br>Flowering Plants
+            </h3>
+        </div>
+    </div>
+    <div class="div5">
+        <h3 class="new" id="shop">New Arrivals</h3>
+    </div>
+    <div class="div6">
+        <div id="box">
+            <img src="./images/Arrivels/aaglanema strips.webp">
+            <h3>Aglaonema Strips Plant - XL</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product1')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product1">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Arrivels/Aglanema butterfly.webp">
+            <h3>Aglaonema Butterfly Plant - XL</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product2')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product2">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Arrivels/rugmini.webp">
+            <h3>Ixora (Rugmini) Plant - Yellow</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product3')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product3">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Arrivels/Aglonema queen.webp">
+            <h3>Aglaonema Queen Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product4')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product4">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Arrivels/dove.webp">
+            <h3>Aglaonema Dove Plant - XL</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product5')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product5">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Arrivels/indian x-mass.webp">
+            <h3>Indian Christmas Tree - XL</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product6')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product6">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Arrivels/peperomia.webp">
+            <h3>Peperomia Variegated Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product7')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product7">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box">
+            <img src="./images/Arrivels/rubber.webp">
+            <h3>Rubber Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product8')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product8">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box">
+            <img src="./images/Arrivels/pink.webp">
+            <h3>Syngonium Pink Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product9')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product9">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+    </div>
+    <div class="div7">
+        <h3 class="new" id="">Indoor Plants</h3>
+    </div>
+    <div class="div8">
+        <div id="box">
+            <img src="./images/Indoor/bamboo.webp">
+            <h3>Bamboo Palm Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product10')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product10">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Indoor/broken.webp">
+            <h3>Broken Heart Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product11')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product11">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Indoor/ficus.webp">
+            <h3>Ficus Bonsai Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product12')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product12">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Indoor/jade.webp">
+            <h3>Jade Plant Mini</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product13')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product13">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Indoor/money.webp">
+            <h3>Money Tree</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product14')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product14">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Indoor/peace.webp">
+            <h3>Peace Lily Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product15')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product15">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/Indoor/peacock.webp">
+            <h3>Peacock Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product16')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product16">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box">
+            <img src="./images/Indoor/zz.webp">
+            <h3>ZZ Plant</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product17')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product17">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box">
+            <img src="./images/Indoor/snake.webp">
+            <h3>Snake Plant - Golden Hahnii</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product18')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product18">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+    </div>
+    <div class="div9">
+        <h3 class="new" id="">Ceramic Pots</h3>
+    </div>
+    <div class="div10">
+        <div id="box">
+            <img src="./images/ceromic/prism.webp">
+            <h3>Aurelius Prism Ceramic Pot</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product19')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product19">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+        <div id="box"><img src="./images/ceromic/round.webp">
+            <h3>Aurelius Round Ceramic Pot</h3><br>
+            <p id="para">reviews:<img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1"><img src="./images/star.png" id="image1">
+                <img src="./images/star.png" id="image1">5.0
+            </p><br>
+            <div id="product-container">
+                <p>Price: $20</p><br>
+                <button id="add-to-cart-btn" onclick="addToCart('product20')">Add to Cart</button><br><br>
+                <p>Items in Cart: <span id="cart-count-product20">0</span></p>
+            </div>
+            <a href="#buy" class="buy1">Buy now</a>
+        </div>
+    </div>
+    <div class="div11" id="blog">
+        <h1 id="heading">why Blessed botanicals</h1>
+        <div class="div12">
+            <div>
+                <img src="./images/image1.avif">
+                <h2 id="sub">Secure and Recyclable<br>Packing</h2>
+            </div>
+            <div>
+                <img src="./images/image2.png">
+                <h2 id="sub">Free Replacements if<br> Damaged</h2>
+            </div>
+            <div>
+                <img src="./images/image3.avif">
+                <h2 id="sub">Self-Watering Pots with<br>Every Plants</h2>
+            </div>
+        </div>
+    </div>
+    <div class="div20" id="contact">
+        <div class="subdiv1">
+            <div class="land">
+                <h2 class="landcom">Blessed botanicals</h2>
+            </div>
+            <div>
+                <p id="para1">Blessed botanicals website will help you to purchase the multiple types of plants from one
+                    place.
+                    You don’t have to go out somewhere for buy it. Just open the website from anywhere choose the plant
+                    which you are looking for, add your address and get the delivery at your door step.</p>
+            </div>
+        </div>
+        <div class="subdiv2">
+            <div>
+                <h2 class="office">india office-contact</h2>
+            </div>
+            <div>
+                <p id="para2">Chennai - <a target="_blank" href="" id="dir">Directions</a><br>
+                    No.8-12, VOC 1st Main Road<br>
+                    Dr.Subbaraya Nagar, Kodambakkam<br>
+                    Chennai - 600004. India<br><br>mailus@euroland.com<br>
+                    +91 (893) 981 8155</p>
+            </div>
+        </div>
+        <div class="subdiv3">
+            <div>
+                <h2 class="we">we are social</h2>
+                <div class="div13">
+                    <a target="_blank" href="" id="g">Facebook</a>
+                    <a target="_blank" href="" id="g">Twitter</a>
+                    <a target="_blank" href="" id="g">Linkedin</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div31">
+        <p id="copyright">copyright &copy; 2024 Blessed botanicals</p>
+    </div>
+</body>
+<script src="./plant.js"></script>
+
+</html>
